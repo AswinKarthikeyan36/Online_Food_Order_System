@@ -1,33 +1,45 @@
-Restaurant Management System
-The Restaurant Management System is a simple command‑line application developed using Python and SQLite. This project is designed to help manage basic restaurant operations such as maintaining menu items and processing customer orders.
+ONLINE FOOD ORDER SYSTEM
+The Online Food Order System is a simple command‑line application developed using Python and SQLite that allows users to browse food items, place orders, and store order information in a database. The system simulates the basic functionality of an online food ordering platform where customers can view available menu items and order food through a terminal interface.
 
-The system provides an easy way for users to view the restaurant menu, add new food items, and place customer orders through a terminal-based interface. All data is stored in a SQLite database, which ensures that menu items and order information are saved and can be retrieved whenever the program runs.
+This project is designed to demonstrate how Python can be used to build a small real‑world application using modular programming and database integration. The application is organized into multiple Python modules, where each file is responsible for a specific functionality such as managing the database, handling menu items, and processing customer orders.
 
-This project demonstrates the use of Python modular programming, where the code is divided into multiple files to improve readability, organization, and maintainability. Each module is responsible for a specific task such as handling database connections, managing menu items, and processing orders.
+The system uses SQLite, a lightweight database that comes built into Python, to store information about food items and customer orders. This ensures that the data is saved and can be accessed whenever the program runs.
 
-The application is built as a menu-driven program, allowing users to interact with the system by selecting options displayed in the terminal. This makes the program simple to use while also showing how command-line applications can be structured in real-world software development.
+The program runs through a menu‑driven command‑line interface (CLI) where users can select different options such as viewing available food items, adding items to the menu, and placing an order. This type of interface is simple but effective for demonstrating how interactive applications work.
 
-The project is mainly intended for learning purposes and helps beginners understand important programming concepts such as:
+This project is mainly created for learning purposes and helps beginners understand important programming concepts such as Python modules, database operations, and command‑line application design.
 
-Structuring a Python project using multiple modules
+🎯 Purpose of the Project
+The main objectives of this project are:
 
-Connecting Python applications with a database
+To build a simple online food ordering system
 
-Performing basic database operations such as inserting and retrieving data
+To understand modular programming in Python
 
-Designing simple command-line interfaces
+To integrate SQLite database with Python
 
-Organizing code for better maintainability
+To practice basic CRUD operations (Create, Read, Update, Delete)
 
-The system is divided into several Python files:
+To create an interactive command‑line application
 
-database.py – Handles database connection and table creation
+🧠 Concepts Demonstrated
+This project demonstrates several important programming concepts:
 
-menu.py – Manages restaurant menu operations such as adding and displaying items
+Python modular programming using multiple files
 
-orders.py – Handles order placement and stores order details in the database
+Database management using SQLite
 
-main.py – The main program file that runs the application and provides the user interface
+Command‑line interface development
 
-Overall, this project serves as a basic restaurant management tool and a practical example of building a small Python application with database integration.
+Data storage and retrieval
 
+Basic application structure and organization
+
+📂 Project Structure
+online-food-order-system/
+│
+├── database.py    # Handles database connection and table creation
+├── menu.py        # Manages food menu operations
+├── orders.py      # Handles food order placement
+├── main.py        # Main program that runs the application
+└── README.md
