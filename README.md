@@ -1,4 +1,5 @@
 ONLINE FOOD ORDER SYSTEM
+
 The Online Food Order System is a simple command‑line application developed using Python and SQLite that allows users to browse food items, place orders, and store order information in a database. The system simulates the basic functionality of an online food ordering platform where customers can view available menu items and order food through a terminal interface.
 
 This project is designed to demonstrate how Python can be used to build a small real‑world application using modular programming and database integration. The application is organized into multiple Python modules, where each file is responsible for a specific functionality such as managing the database, handling menu items, and processing customer orders.
