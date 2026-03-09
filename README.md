@@ -10,7 +10,7 @@ The program runs through a menu‑driven command‑line interface (CLI) where us
 
 This project is mainly created for learning purposes and helps beginners understand important programming concepts such as Python modules, database operations, and command‑line application design.
 
-🎯 Purpose of the Project
+ Purpose of the Project
 The main objectives of this project are:
 
 To build a simple online food ordering system
@@ -23,7 +23,7 @@ To practice basic CRUD operations (Create, Read, Update, Delete)
 
 To create an interactive command‑line application
 
-🧠 Concepts Demonstrated
+ Concepts Demonstrated
 This project demonstrates several important programming concepts:
 
 Python modular programming using multiple files
@@ -36,7 +36,7 @@ Data storage and retrieval
 
 Basic application structure and organization
 
-📂 Project Structure
+ Project Structure
 online-food-order-system/
 │
 ├── database.py    # Handles database connection and table creation
